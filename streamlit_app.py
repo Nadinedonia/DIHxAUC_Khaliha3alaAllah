@@ -1,3 +1,6 @@
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -28,7 +31,7 @@ st.title("🗓️ Shift Planning System (Forecast → Staffing → Disruptions �
 # -----------------------------
 # Paths / config
 # -----------------------------
-DEFAULT_PROCESSED_PATH = Path("data/processed/processed_deloitte.csv")
+DEFAULT_PROCESSED_PATH = Path("data/processed/clustered_results_places.csv")
 DEFAULT_FORECAST_PATH = Path("data/forecast/forecast_results.csv")
 
 # -----------------------------
