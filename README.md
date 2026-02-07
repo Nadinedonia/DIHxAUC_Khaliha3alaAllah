@@ -45,8 +45,25 @@ For Frontend services such as managing the interface and creative design, Stream
 #### Backend 
 For Backend services, to ensure a cohesive and integrated code as to aviod any errors and overcrowding, Python was used. 
 
+**generate_schedule()** - Takes the demand forecast and employee list, then assigns specific employees to specific shifts 
+
+**handle_call_off()** - When an employee calls in sick, it removes them from the schedule and suggests the best replacement candidate.
+
+**calculate_impact_metrics()** - Analyzes the schedule to show KPIs like total labor cost, coverage rate, understaffed/overstaffed shifts for the manager dashboard.
+
+
 #### AI Models 
-For AI, a clustering model was used. It classifies each place into clusters and forms predictions based on user input. 
+For AI, a clustering model and others were used. It classifies each place into clusters and forms predictions based on user input and the models predict how many staff are needed and decides which specific employees work which specific shifts to meet that demand optimally.
+
+**Standard Active (Cluster 0)**: Steady demand, predictable shifts
+
+**Seasonal High Performers (Cluster 1)**: Surge staffing during seasons
+
+**Inactive/Churned (Cluster 2)**: Minimal/no staffing needed
+
+**Core High Performers (Cluster 3)**: Maximum staff, premium scheduling
+
+**Dormant Edge Cases (Cluster 4)**: On-call staff only
 
 #### Database 
 The Data for shifts and other important information was provided by the client's CSV and were filtered to only use relevant information needed for the system. 
@@ -64,4 +81,25 @@ For the installation process, there are several dependencies that need to be ins
 * **Protobuf**: Required by OR-Tools for data serialization
 * **Pathlib**: (Built-in) For file path management
 * **Json**: (Built-in) For parsing store hours data
+
+## Team Members 
+* **Database: Jumana Moussa**
+  
+Technical Member, went through the data checked if it is relevant to our team and changed any necessary data for the machine to better understand it. Also wrote the data_dictionary.md, which has all provided data with where it was provided, description of it, the type of data, if it used, and modifications that needed to be done
+* **AI Modeling: Nadine Donia**
+
+Technical Member, assesst and developed an modeling tool used for the processing data and training the model to create accurate predicitons based on client input
+* **Backend Developer: Arwa Hossam**
+
+Technical Member, used python to turn forecasts from the model and data into staffing decisions, created the logic behind required staff, employee scoring, call-off handling, and finally calculated covergae gaps, labor costs, and understaffing/overstaffing
+* **Frontend Developer: Asmaa Elshabshiri**
+
+Technical Member, made the system usable, visual, and understandable. 
+Build Streamlit app with tabs: Forecast Overview, Recommended Schedule, Disruption Mode (call-off), Business Impact
+Display: Forecast charts, Staffing tables, Buttons & sliders, Connect UI to backend functions
+* **Business Consultant: Rana Wagdy**
+
+Nontechnical Member, translated the solution into business value, created and organized the README file, and involved in the shift planning for the Shift Wizard, its delivrables and comparison of before and after scheduling processes, and help frontend with insight callouts
+
+
  
