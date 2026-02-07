@@ -3,7 +3,7 @@ import pandas as pd
 from backend.engine import generate_schedule
 
 # Load your mock data
-proc = pd.read_csv("data/generated_data/clustered_results_places.csv")
+proc = pd.read_csv("data/processed/clustered_results_places.csv")
 fore = pd.read_csv("data/forecast/forecast_results.csv")
 
 print("Testing Schedule Generation...")
