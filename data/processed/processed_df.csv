@@ -1,0 +1,116 @@
+employee_id,employee_name,role,availability,max_shifts_per_week,preferred_shift
+1,Employee 1,Senior Staff,Available,5,Morning
+2,Employee 2,Senior Staff,Available,5,Morning
+3,Employee 3,Senior Staff,Available,5,Morning
+4,Employee 4,Senior Staff,Available,5,Night
+5,Employee 5,Senior Staff,Available,5,Morning
+6,Employee 6,Senior Staff,Available,5,Morning
+7,Employee 7,Senior Staff,Available,5,Night
+8,Employee 8,Senior Staff,Available,5,Night
+9,Employee 9,Senior Staff,Available,5,Evening
+10,Employee 10,Senior Staff,Available,5,Morning
+11,Employee 11,Senior Staff,Available,5,Morning
+12,Employee 12,Senior Staff,Available,5,Morning
+13,Employee 13,Senior Staff,Available,5,Morning
+14,Employee 14,Senior Staff,Available,5,Morning
+15,Employee 15,Senior Staff,Available,5,Night
+16,Employee 16,Senior Staff,Available,5,Night
+17,Employee 17,Senior Staff,Available,5,Morning
+18,Employee 18,Senior Staff,Available,5,Evening
+19,Employee 19,Senior Staff,Available,5,Morning
+20,Employee 20,Senior Staff,Available,5,Night
+21,Employee 21,Senior Staff,Available,5,Night
+22,Employee 22,Senior Staff,Available,5,Morning
+23,Employee 23,Senior Staff,Available,5,Night
+24,Employee 24,Staff,Available,5,Morning
+25,Employee 25,Staff,Available,5,Evening
+26,Employee 26,Staff,Available,5,Evening
+27,Employee 27,Staff,Available,5,Night
+28,Employee 28,Staff,Available,5,Evening
+29,Employee 29,Staff,Available,5,Morning
+30,Employee 30,Staff,Available,5,Night
+31,Employee 31,Staff,Available,5,Morning
+32,Employee 32,Staff,Available,5,Evening
+33,Employee 33,Staff,Available,5,Morning
+34,Employee 34,Staff,Available,5,Morning
+35,Employee 35,Staff,Available,5,Evening
+36,Employee 36,Staff,Available,5,Morning
+37,Employee 37,Staff,Available,5,Night
+38,Employee 38,Staff,Available,5,Evening
+39,Employee 39,Staff,Available,5,Night
+40,Employee 40,Staff,Available,5,Morning
+41,Employee 41,Staff,Available,5,Morning
+42,Employee 42,Staff,Available,5,Night
+43,Employee 43,Staff,Available,5,Night
+44,Employee 44,Staff,Available,5,Evening
+45,Employee 45,Staff,Available,5,Evening
+46,Employee 46,Staff,Available,5,Morning
+47,Employee 47,Staff,Available,5,Evening
+48,Employee 48,Staff,Available,5,Night
+49,Employee 49,Staff,Available,5,Morning
+50,Employee 50,Staff,Available,5,Evening
+51,Employee 51,Staff,Available,5,Morning
+52,Employee 52,Staff,Available,5,Night
+53,Employee 53,Staff,Available,5,Morning
+54,Employee 54,Staff,Available,5,Morning
+55,Employee 55,Staff,Available,5,Morning
+56,Employee 56,Staff,Available,5,Night
+57,Employee 57,Staff,Available,5,Evening
+58,Employee 58,Staff,Available,5,Night
+59,Employee 59,Staff,Available,5,Morning
+60,Employee 60,Staff,Available,5,Night
+61,Employee 61,Staff,Available,5,Evening
+62,Employee 62,Staff,Available,5,Night
+63,Employee 63,Staff,Available,5,Morning
+64,Employee 64,Staff,Available,5,Night
+65,Employee 65,Staff,Available,5,Morning
+66,Employee 66,Staff,Available,5,Evening
+67,Employee 67,Staff,Available,5,Morning
+68,Employee 68,Staff,Available,5,Evening
+69,Employee 69,Staff,Available,5,Evening
+70,Employee 70,Staff,Available,5,Morning
+71,Employee 71,Staff,Available,5,Night
+72,Employee 72,Staff,Available,5,Morning
+73,Employee 73,Staff,Available,5,Evening
+74,Employee 74,Staff,Available,5,Night
+75,Employee 75,Staff,Available,5,Evening
+76,Employee 76,Staff,Available,5,Night
+77,Employee 77,Staff,Available,5,Morning
+78,Employee 78,Staff,Available,5,Morning
+79,Employee 79,Staff,Available,5,Morning
+80,Employee 80,Staff,Available,5,Morning
+81,Employee 81,Staff,Available,5,Night
+82,Employee 82,Staff,Available,5,Night
+83,Employee 83,Staff,Available,5,Evening
+84,Employee 84,Staff,Available,5,Night
+85,Employee 85,Staff,Available,5,Evening
+86,Employee 86,Staff,Available,5,Evening
+87,Employee 87,Staff,Available,5,Night
+88,Employee 88,Staff,Available,5,Evening
+89,Employee 89,Staff,Available,5,Evening
+90,Employee 90,Staff,Available,5,Morning
+91,Employee 91,Staff,Available,5,Morning
+92,Employee 92,Staff,Available,5,Evening
+93,Employee 93,Seasonal Staff,Available,5,Morning
+94,Employee 94,Seasonal Staff,Available,5,Night
+95,Employee 95,Seasonal Staff,Available,5,Evening
+96,Employee 96,Seasonal Staff,Available,5,Night
+97,Employee 97,Seasonal Staff,Available,5,Evening
+98,Employee 98,Seasonal Staff,Available,5,Morning
+99,Employee 99,Seasonal Staff,Available,5,Night
+100,Employee 100,Seasonal Staff,Available,5,Evening
+101,Employee 101,Seasonal Staff,Available,5,Morning
+102,Employee 102,Seasonal Staff,Available,5,Morning
+103,Employee 103,Seasonal Staff,Available,5,Evening
+104,Employee 104,Seasonal Staff,Available,5,Evening
+105,Employee 105,Seasonal Staff,Available,5,Morning
+106,Employee 106,Seasonal Staff,Available,5,Morning
+107,Employee 107,Seasonal Staff,Available,5,Evening
+108,Employee 108,Seasonal Staff,Available,5,Morning
+109,Employee 109,Seasonal Staff,Available,5,Night
+110,Employee 110,Seasonal Staff,Available,5,Evening
+111,Employee 111,Seasonal Staff,Available,5,Morning
+112,Employee 112,Seasonal Staff,Available,5,Night
+113,Employee 113,Seasonal Staff,Available,5,Evening
+114,Employee 114,Seasonal Staff,Available,5,Night
+115,Employee 115,Seasonal Staff,Available,5,Night

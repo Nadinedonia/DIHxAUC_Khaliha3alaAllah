@@ -1,0 +1,6 @@
+{
+  "service_level_target": 95,
+  "labor_cost_per_staff": 100,
+  "max_shifts_per_employee": 5,
+  "min_rest_hours": 8
+}

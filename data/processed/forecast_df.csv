@@ -1,0 +1,207 @@
+date,shift,cluster,day_name,forecast_demand,forecast_items,required_staff,role
+2026-02-07,Morning,Core High Performers,Saturday,283,650,51,Senior Staff
+2026-02-07,Morning,Dormant Edge Cases,Saturday,29,82,6,Staff
+2026-02-07,Morning,Inactive/Churned,Saturday,7,16,2,Staff
+2026-02-07,Morning,Seasonal High Performers,Saturday,69,161,13,Seasonal Staff
+2026-02-07,Morning,Standard Active,Saturday,69,160,13,Staff
+2026-02-07,Evening,Core High Performers,Saturday,331,864,63,Senior Staff
+2026-02-07,Evening,Dormant Edge Cases,Saturday,85,207,16,Staff
+2026-02-07,Evening,Inactive/Churned,Saturday,24,64,6,Staff
+2026-02-07,Evening,Seasonal High Performers,Saturday,46,117,9,Seasonal Staff
+2026-02-07,Evening,Standard Active,Saturday,52,135,11,Staff
+2026-02-07,Night,Core High Performers,Saturday,311,778,58,Senior Staff
+2026-02-07,Night,Dormant Edge Cases,Saturday,8,31,3,Staff
+2026-02-07,Night,Inactive/Churned,Saturday,112,202,19,Staff
+2026-02-07,Night,Seasonal High Performers,Saturday,3,15,2,Seasonal Staff
+2026-02-07,Night,Standard Active,Saturday,23,48,5,Staff
+2026-02-08,Morning,Core High Performers,Sunday,277,667,51,Senior Staff
+2026-02-08,Morning,Inactive/Churned,Sunday,4,8,2,Staff
+2026-02-08,Morning,Seasonal High Performers,Sunday,79,158,14,Seasonal Staff
+2026-02-08,Morning,Standard Active,Sunday,44,104,9,Staff
+2026-02-08,Evening,Core High Performers,Sunday,212,517,40,Senior Staff
+2026-02-08,Evening,Dormant Edge Cases,Sunday,17,32,4,Staff
+2026-02-08,Evening,Inactive/Churned,Sunday,15,38,4,Staff
+2026-02-08,Evening,Seasonal High Performers,Sunday,43,102,9,Seasonal Staff
+2026-02-08,Evening,Standard Active,Sunday,36,90,7,Staff
+2026-02-08,Night,Core High Performers,Sunday,139,354,26,Senior Staff
+2026-02-08,Night,Dormant Edge Cases,Sunday,2,9,2,Staff
+2026-02-08,Night,Inactive/Churned,Sunday,45,77,8,Staff
+2026-02-08,Night,Standard Active,Sunday,10,20,2,Staff
+2026-02-09,Morning,Core High Performers,Monday,242,479,41,Senior Staff
+2026-02-09,Morning,Dormant Edge Cases,Monday,27,46,5,Staff
+2026-02-09,Morning,Inactive/Churned,Monday,3,5,2,Staff
+2026-02-09,Morning,Seasonal High Performers,Monday,19,45,4,Seasonal Staff
+2026-02-09,Morning,Standard Active,Monday,43,87,8,Staff
+2026-02-09,Evening,Core High Performers,Monday,256,561,45,Senior Staff
+2026-02-09,Evening,Dormant Edge Cases,Monday,44,86,8,Staff
+2026-02-09,Evening,Inactive/Churned,Monday,11,31,4,Staff
+2026-02-09,Evening,Seasonal High Performers,Monday,19,55,4,Seasonal Staff
+2026-02-09,Evening,Standard Active,Monday,42,92,9,Staff
+2026-02-09,Night,Core High Performers,Monday,16,44,4,Senior Staff
+2026-02-09,Night,Dormant Edge Cases,Monday,1,4,2,Staff
+2026-02-09,Night,Inactive/Churned,Monday,4,14,2,Staff
+2026-02-09,Night,Seasonal High Performers,Monday,0,0,1,Seasonal Staff
+2026-02-09,Night,Standard Active,Monday,9,20,2,Staff
+2026-02-10,Morning,Core High Performers,Tuesday,306,622,52,Senior Staff
+2026-02-10,Morning,Dormant Edge Cases,Tuesday,30,54,5,Staff
+2026-02-10,Morning,Inactive/Churned,Tuesday,3,6,2,Staff
+2026-02-10,Morning,Seasonal High Performers,Tuesday,13,32,4,Seasonal Staff
+2026-02-10,Morning,Standard Active,Tuesday,54,110,10,Staff
+2026-02-10,Evening,Core High Performers,Tuesday,316,726,57,Senior Staff
+2026-02-10,Evening,Dormant Edge Cases,Tuesday,47,97,9,Staff
+2026-02-10,Evening,Inactive/Churned,Tuesday,12,29,3,Staff
+2026-02-10,Evening,Seasonal High Performers,Tuesday,29,67,6,Seasonal Staff
+2026-02-10,Evening,Standard Active,Tuesday,47,106,9,Staff
+2026-02-10,Night,Core High Performers,Tuesday,30,88,6,Senior Staff
+2026-02-10,Night,Dormant Edge Cases,Tuesday,1,2,2,Staff
+2026-02-10,Night,Inactive/Churned,Tuesday,17,31,4,Staff
+2026-02-10,Night,Seasonal High Performers,Tuesday,1,1,2,Seasonal Staff
+2026-02-10,Night,Standard Active,Tuesday,2,5,2,Staff
+2026-02-11,Morning,Core High Performers,Wednesday,274,578,48,Senior Staff
+2026-02-11,Morning,Dormant Edge Cases,Wednesday,29,54,5,Staff
+2026-02-11,Morning,Inactive/Churned,Wednesday,6,12,2,Staff
+2026-02-11,Morning,Seasonal High Performers,Wednesday,47,93,9,Seasonal Staff
+2026-02-11,Morning,Standard Active,Wednesday,51,103,10,Staff
+2026-02-11,Evening,Core High Performers,Wednesday,329,769,59,Senior Staff
+2026-02-11,Evening,Dormant Edge Cases,Wednesday,52,106,10,Staff
+2026-02-11,Evening,Inactive/Churned,Wednesday,13,31,4,Staff
+2026-02-11,Evening,Seasonal High Performers,Wednesday,52,145,11,Seasonal Staff
+2026-02-11,Evening,Standard Active,Wednesday,43,105,9,Staff
+2026-02-11,Night,Core High Performers,Wednesday,43,117,9,Senior Staff
+2026-02-11,Night,Dormant Edge Cases,Wednesday,2,5,2,Staff
+2026-02-11,Night,Inactive/Churned,Wednesday,22,65,6,Staff
+2026-02-11,Night,Seasonal High Performers,Wednesday,10,18,2,Seasonal Staff
+2026-02-11,Night,Standard Active,Wednesday,3,6,2,Staff
+2026-02-12,Morning,Core High Performers,Thursday,336,691,58,Senior Staff
+2026-02-12,Morning,Dormant Edge Cases,Thursday,28,50,5,Staff
+2026-02-12,Morning,Inactive/Churned,Thursday,4,7,2,Staff
+2026-02-12,Morning,Seasonal High Performers,Thursday,21,51,5,Seasonal Staff
+2026-02-12,Morning,Standard Active,Thursday,54,107,10,Staff
+2026-02-12,Evening,Core High Performers,Thursday,293,677,53,Senior Staff
+2026-02-12,Evening,Dormant Edge Cases,Thursday,51,107,10,Staff
+2026-02-12,Evening,Inactive/Churned,Thursday,11,27,3,Staff
+2026-02-12,Evening,Seasonal High Performers,Thursday,54,115,10,Seasonal Staff
+2026-02-12,Evening,Standard Active,Thursday,49,122,10,Staff
+2026-02-12,Night,Core High Performers,Thursday,44,126,10,Senior Staff
+2026-02-12,Night,Dormant Edge Cases,Thursday,2,10,2,Staff
+2026-02-12,Night,Inactive/Churned,Thursday,11,36,4,Staff
+2026-02-12,Night,Seasonal High Performers,Thursday,5,5,2,Seasonal Staff
+2026-02-12,Night,Standard Active,Thursday,3,7,2,Staff
+2026-02-13,Morning,Core High Performers,Friday,337,717,58,Senior Staff
+2026-02-13,Morning,Dormant Edge Cases,Friday,31,59,6,Staff
+2026-02-13,Morning,Inactive/Churned,Friday,5,10,2,Staff
+2026-02-13,Morning,Seasonal High Performers,Friday,17,69,5,Seasonal Staff
+2026-02-13,Morning,Standard Active,Friday,58,121,11,Staff
+2026-02-13,Evening,Core High Performers,Friday,417,1047,77,Senior Staff
+2026-02-13,Evening,Dormant Edge Cases,Friday,66,151,13,Staff
+2026-02-13,Evening,Inactive/Churned,Friday,18,50,4,Staff
+2026-02-13,Evening,Seasonal High Performers,Friday,67,140,12,Seasonal Staff
+2026-02-13,Evening,Standard Active,Friday,71,181,15,Staff
+2026-02-13,Night,Core High Performers,Friday,154,418,30,Senior Staff
+2026-02-13,Night,Dormant Edge Cases,Friday,4,7,2,Staff
+2026-02-13,Night,Inactive/Churned,Friday,37,75,7,Staff
+2026-02-13,Night,Seasonal High Performers,Friday,11,20,3,Seasonal Staff
+2026-02-13,Night,Standard Active,Friday,14,29,3,Staff
+2026-02-14,Morning,Core High Performers,Saturday,305,699,55,Senior Staff
+2026-02-14,Morning,Dormant Edge Cases,Saturday,30,85,6,Staff
+2026-02-14,Morning,Inactive/Churned,Saturday,8,19,2,Staff
+2026-02-14,Morning,Seasonal High Performers,Saturday,73,169,14,Seasonal Staff
+2026-02-14,Morning,Standard Active,Saturday,68,157,13,Staff
+2026-02-14,Evening,Core High Performers,Saturday,338,882,64,Senior Staff
+2026-02-14,Evening,Dormant Edge Cases,Saturday,80,193,15,Staff
+2026-02-14,Evening,Inactive/Churned,Saturday,25,67,6,Staff
+2026-02-14,Evening,Seasonal High Performers,Saturday,44,111,9,Seasonal Staff
+2026-02-14,Evening,Standard Active,Saturday,54,143,11,Staff
+2026-02-14,Night,Core High Performers,Saturday,326,817,61,Senior Staff
+2026-02-14,Night,Dormant Edge Cases,Saturday,7,29,2,Staff
+2026-02-14,Night,Inactive/Churned,Saturday,117,211,20,Staff
+2026-02-14,Night,Seasonal High Performers,Saturday,4,17,2,Seasonal Staff
+2026-02-14,Night,Standard Active,Saturday,22,47,5,Staff
+2026-02-15,Morning,Core High Performers,Sunday,277,668,51,Senior Staff
+2026-02-15,Morning,Inactive/Churned,Sunday,3,7,2,Staff
+2026-02-15,Morning,Seasonal High Performers,Sunday,78,155,14,Seasonal Staff
+2026-02-15,Morning,Standard Active,Sunday,42,98,9,Staff
+2026-02-15,Evening,Core High Performers,Sunday,214,521,40,Senior Staff
+2026-02-15,Evening,Dormant Edge Cases,Sunday,16,32,4,Staff
+2026-02-15,Evening,Inactive/Churned,Sunday,16,41,4,Staff
+2026-02-15,Evening,Seasonal High Performers,Sunday,48,114,9,Seasonal Staff
+2026-02-15,Evening,Standard Active,Sunday,34,87,7,Staff
+2026-02-15,Night,Core High Performers,Sunday,154,394,30,Senior Staff
+2026-02-15,Night,Dormant Edge Cases,Sunday,2,9,2,Staff
+2026-02-15,Night,Inactive/Churned,Sunday,46,79,8,Staff
+2026-02-15,Night,Standard Active,Sunday,10,20,2,Staff
+2026-02-16,Morning,Core High Performers,Monday,240,475,40,Senior Staff
+2026-02-16,Morning,Dormant Edge Cases,Monday,29,48,5,Staff
+2026-02-16,Morning,Inactive/Churned,Monday,3,4,2,Staff
+2026-02-16,Morning,Seasonal High Performers,Monday,20,47,4,Seasonal Staff
+2026-02-16,Morning,Standard Active,Monday,43,86,8,Staff
+2026-02-16,Evening,Core High Performers,Monday,257,565,45,Senior Staff
+2026-02-16,Evening,Dormant Edge Cases,Monday,39,76,7,Staff
+2026-02-16,Evening,Inactive/Churned,Monday,13,36,4,Staff
+2026-02-16,Evening,Seasonal High Performers,Monday,18,53,4,Seasonal Staff
+2026-02-16,Evening,Standard Active,Monday,40,90,7,Staff
+2026-02-16,Night,Core High Performers,Monday,16,44,4,Senior Staff
+2026-02-16,Night,Dormant Edge Cases,Monday,1,4,2,Staff
+2026-02-16,Night,Inactive/Churned,Monday,4,14,2,Staff
+2026-02-16,Night,Seasonal High Performers,Monday,0,0,1,Seasonal Staff
+2026-02-16,Night,Standard Active,Monday,8,19,2,Staff
+2026-02-17,Morning,Core High Performers,Tuesday,294,597,50,Senior Staff
+2026-02-17,Morning,Dormant Edge Cases,Tuesday,30,54,5,Staff
+2026-02-17,Morning,Inactive/Churned,Tuesday,3,6,2,Staff
+2026-02-17,Morning,Seasonal High Performers,Tuesday,13,32,4,Seasonal Staff
+2026-02-17,Morning,Standard Active,Tuesday,47,95,9,Staff
+2026-02-17,Evening,Core High Performers,Tuesday,338,777,60,Senior Staff
+2026-02-17,Evening,Dormant Edge Cases,Tuesday,53,108,10,Staff
+2026-02-17,Evening,Inactive/Churned,Tuesday,11,27,3,Staff
+2026-02-17,Evening,Seasonal High Performers,Tuesday,30,69,6,Seasonal Staff
+2026-02-17,Evening,Standard Active,Tuesday,42,95,9,Staff
+2026-02-17,Night,Core High Performers,Tuesday,28,81,6,Senior Staff
+2026-02-17,Night,Dormant Edge Cases,Tuesday,1,2,2,Staff
+2026-02-17,Night,Inactive/Churned,Tuesday,18,33,4,Staff
+2026-02-17,Night,Seasonal High Performers,Tuesday,2,2,2,Seasonal Staff
+2026-02-17,Night,Standard Active,Tuesday,1,5,2,Staff
+2026-02-18,Morning,Core High Performers,Wednesday,263,555,46,Senior Staff
+2026-02-18,Morning,Dormant Edge Cases,Wednesday,28,52,5,Staff
+2026-02-18,Morning,Inactive/Churned,Wednesday,5,12,2,Staff
+2026-02-18,Morning,Seasonal High Performers,Wednesday,44,87,8,Seasonal Staff
+2026-02-18,Morning,Standard Active,Wednesday,51,103,10,Staff
+2026-02-18,Evening,Core High Performers,Wednesday,356,830,64,Senior Staff
+2026-02-18,Evening,Dormant Edge Cases,Wednesday,53,108,10,Staff
+2026-02-18,Evening,Inactive/Churned,Wednesday,12,27,3,Staff
+2026-02-18,Evening,Seasonal High Performers,Wednesday,60,168,12,Seasonal Staff
+2026-02-18,Evening,Standard Active,Wednesday,44,106,9,Staff
+2026-02-18,Night,Core High Performers,Wednesday,41,113,9,Senior Staff
+2026-02-18,Night,Dormant Edge Cases,Wednesday,2,5,2,Staff
+2026-02-18,Night,Inactive/Churned,Wednesday,19,57,4,Staff
+2026-02-18,Night,Seasonal High Performers,Wednesday,10,18,2,Seasonal Staff
+2026-02-18,Night,Standard Active,Wednesday,3,5,2,Staff
+2026-02-19,Morning,Core High Performers,Thursday,350,719,59,Senior Staff
+2026-02-19,Morning,Dormant Edge Cases,Thursday,28,50,5,Staff
+2026-02-19,Morning,Inactive/Churned,Thursday,4,6,2,Staff
+2026-02-19,Morning,Seasonal High Performers,Thursday,25,59,5,Seasonal Staff
+2026-02-19,Morning,Standard Active,Thursday,49,97,9,Staff
+2026-02-19,Evening,Core High Performers,Thursday,293,677,53,Senior Staff
+2026-02-19,Evening,Dormant Edge Cases,Thursday,47,100,9,Staff
+2026-02-19,Evening,Inactive/Churned,Thursday,11,28,3,Staff
+2026-02-19,Evening,Seasonal High Performers,Thursday,58,126,11,Seasonal Staff
+2026-02-19,Evening,Standard Active,Thursday,50,126,10,Staff
+2026-02-19,Night,Core High Performers,Thursday,43,125,10,Senior Staff
+2026-02-19,Night,Dormant Edge Cases,Thursday,2,10,2,Staff
+2026-02-19,Night,Inactive/Churned,Thursday,12,38,4,Staff
+2026-02-19,Night,Seasonal High Performers,Thursday,4,4,2,Seasonal Staff
+2026-02-19,Night,Standard Active,Thursday,3,7,2,Staff
+2026-02-20,Morning,Core High Performers,Friday,375,798,65,Senior Staff
+2026-02-20,Morning,Dormant Edge Cases,Friday,36,69,7,Staff
+2026-02-20,Morning,Inactive/Churned,Friday,5,10,2,Staff
+2026-02-20,Morning,Seasonal High Performers,Friday,19,76,5,Seasonal Staff
+2026-02-20,Morning,Standard Active,Friday,54,113,10,Staff
+2026-02-20,Evening,Core High Performers,Friday,386,970,72,Senior Staff
+2026-02-20,Evening,Dormant Edge Cases,Friday,77,178,14,Staff
+2026-02-20,Evening,Inactive/Churned,Friday,20,54,4,Staff
+2026-02-20,Evening,Seasonal High Performers,Friday,63,132,12,Seasonal Staff
+2026-02-20,Evening,Standard Active,Friday,68,174,13,Staff
+2026-02-20,Night,Core High Performers,Friday,137,371,27,Senior Staff
+2026-02-20,Night,Dormant Edge Cases,Friday,4,7,2,Staff
+2026-02-20,Night,Inactive/Churned,Friday,41,83,8,Staff
+2026-02-20,Night,Seasonal High Performers,Friday,11,19,3,Seasonal Staff
+2026-02-20,Night,Standard Active,Friday,14,30,3,Staff
