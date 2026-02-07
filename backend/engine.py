@@ -26,8 +26,11 @@ def generate_schedule(processed_df, forecast_df, **params):
     
     assignments = {}
     for e_idx, emp in enumerate(employees):
-        for s_idx, shift in enumerate(shifts):
-            assignments[(e_idx, s_idx)] = model.NewBoolVar(f'shift_{e_idx}_{s_idx}')
+        unique_dates = set(shift['date'] for shift in shifts)
+        for date in unique_dates:
+            shift_indices = [s_idx for s_idx, shift in enumerate(shifts) if shift['date'] == date]
+        model.Add(sum(assignments[(e_idx, s_idx)] for s_idx in shift_indices) <= 1)
+
 
     # Constraint: Skill Matching (if 'role' exists in both)
     if 'role' in processed_df.columns and 'role' in forecast_df.columns:

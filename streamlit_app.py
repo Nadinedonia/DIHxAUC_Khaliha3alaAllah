@@ -31,8 +31,8 @@ st.title("🗓️ Shift Planning System (Forecast → Staffing → Disruptions �
 # -----------------------------
 # Paths / config
 # -----------------------------
-DEFAULT_PROCESSED_PATH = Path("data/processed/clustered_results_places.csv")
-DEFAULT_FORECAST_PATH = Path("data/forecast/forecast_results.csv")
+DEFAULT_PROCESSED_PATH = Path("data/processed/processed_df.csv")
+DEFAULT_FORECAST_PATH = Path("data/processed/forecast_df.csv")
 
 # -----------------------------
 # Helpers
@@ -68,18 +68,44 @@ def show_df(title: str, df: pd.DataFrame):
 
 def plot_forecast(df_forecast: pd.DataFrame, date_col: str, shift_col: str, value_col: str):
     st.subheader("📈 Forecast Chart (per shift)")
+
+    # Select shift
     shifts = sorted(df_forecast[shift_col].unique())
     selected_shift = st.selectbox("Select shift", shifts)
 
+    # Filter for shift
     sub = df_forecast[df_forecast[shift_col] == selected_shift].copy()
-    sub[date_col] = pd.to_datetime(sub[date_col])
 
+    # 🔑 Parse date properly
+    sub[date_col] = pd.to_datetime(sub[date_col], errors="coerce")
+    sub["day"] = sub[date_col].dt.date  # Group by date only (strip time)
+
+    # 🔑 Group by day (not full datetime)
+    daily = (
+        sub.groupby("day", as_index=False)[value_col]
+        .sum()
+        .sort_values("day")
+    )
+
+    if len(daily) < 2:
+        st.warning(f"Only {len(daily)} data point(s) available for '{selected_shift}'. A time-series requires at least 2 dates.")
+        st.dataframe(daily)
+        return
+
+    # Plot
     fig, ax = plt.subplots()
-    ax.plot(sub[date_col], sub[value_col], marker="o")
+    ax.plot(daily["day"], daily[value_col], marker="o")
     ax.set_xlabel("Date")
-    ax.set_ylabel("Forecasted demand")
-    ax.set_title(f"Forecasted demand for shift: {selected_shift}")
+    ax.set_ylabel("Total forecasted demand")
+    ax.set_title(f"Total forecasted demand for shift: {selected_shift}")
+    plt.xticks(rotation=45)
     st.pyplot(fig)
+
+    with st.expander("🔍 Aggregated demand used in plot"):
+        st.dataframe(daily, use_container_width=True)
+
+
+
 
 def require_backend():
     if not BACKEND_OK:
